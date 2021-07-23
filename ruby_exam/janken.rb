@@ -6,9 +6,9 @@ class Player
       puts
       puts "Veuillez saisir un nombre."
       puts
-      puts "0: Pierre"
-      puts "1: Papier"
-      puts "2: Ciseaux"
+      puts "0: Goo"
+      puts "1: Choki"
+      puts "2: Par"
       # 変数「input_hand」にプレイヤーの入力値を代入します。
       # ヒント：getsメソッドについて調べてみましょう。
       input_hand = gets.to_i
@@ -23,9 +23,9 @@ class Player
             puts
             puts "Réessayer!!!Veuillez saisir un nombre"
             puts
-            puts "0: Pierre"
-            puts "1: Papier"
-            puts "2: Ciseaux"
+            puts "0: Goo"
+            puts "1: Choki"
+            puts "2: Par"
             # 変数「input_hand」にプレイヤーの入力値を代入します。
             # ヒント：getsメソッドについて調べてみましょう。
             input_hand = gets.to_i
@@ -36,9 +36,9 @@ class Player
             puts "Veuillez saisir les chiffres 0 à 2"
             puts "Réessayer!!!Veuillez saisir un nombre"
             puts
-            puts "0: Pierre"
-            puts "1: Papier"
-            puts "2: Ciseaux"
+            puts "0: Goo"
+            puts "1: Choki"
+            puts "2: Par"
             # 変数「input_hand」にプレイヤーの入力値を代入します。
             # ヒント：getsメソッドについて調べてみましょう。
             input_hand = gets.to_i
